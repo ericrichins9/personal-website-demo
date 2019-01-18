@@ -1,0 +1,146 @@
+.body, .websites {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro{
+    background-color: #0B172A;
+    width:100%;
+    color:white;
+    padding-left: 20px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #0B172A;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #BC4123;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #BC4123;
+    color: white;
+  }
+
+.intro-header{
+    display:flex;
+    width:100%;
+    justify-content:space-evenly;
+}
+
+.website-header{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    background-color:#463940;
+    color:white;
+    padding-left: 20px;
+    justify-content: center;
+    font-size: 21px;
+    /* justify-content: space-around; */
+}
+
+.top{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    /* margin-bottom: 20px; */
+    border-bottom: double;
+}
+
+.middle{
+    display:flex;
+    flex-wrap: wrap;
+    height:100%;
+    width:100%;
+}
+.bottom{
+    display:flex;
+    align-items:flex-end;
+}
+  
+.website-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:100%;
+}
+.card {
+    height: 330px;
+    width: 230px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
+    margin: 12px;
+    padding: 12px;
+
+}
+
+.card:hover{
+    position: relative;
+    transform: scale(1.1);
+    cursor: pointer;  
+}
+.card p {
+    font-size: 14px;
+}
+
+.footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(122, 112, 112);
+    color: white;
+
+  }
+
+.footer-title{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.footer-content{
+    width: 100%;
+    display:flex;
+    /* flex-wrap: wrap; */
+}
+.contact-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(122, 112, 112);
+    color: white;
+
+  }
+
+  /* .email-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 33.3%;
+    background-color: rgb(122, 112, 112);
+    color: white; */
+
+  }
+.footer p {
+    font-size: 12px;
+}
